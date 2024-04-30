@@ -50,7 +50,7 @@ test-cases:
 
 - summary: |
       Проверка открытия карточки товара
-   status: pass
+  status: pass
     
 - summary: |
       Проверка добавления товара в корзину
