@@ -1,7 +1,7 @@
 ---
 - summary: |
     Проверка смены языка сайта
-  status: fall
+  status: fail
 
 - summary: |
     Проверка смены языка сайта
@@ -65,8 +65,8 @@
 
 - summary: |
     Проверка успешного оформления заказа из корзины
-  status: fall
-
+  status: fail
+  
 - summary: |
     Проверка сохранения корзины в сессии браузера
   status: pass
