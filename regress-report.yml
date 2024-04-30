@@ -1,4 +1,5 @@
 ---
+test-cases:
 - summary: |
     Проверка смены языка сайта
   status: fail
@@ -75,8 +76,8 @@ bugreports:
   - summary: |
       Некорректная работа Категории+Фильтров
     environment: |
-    Яндекс браузер 24.1.5.803 (64-bit)
-    Windows 10 22H2
+      Яндекс браузер 24.1.5.803 (64-bit)
+      Windows 10 22H2
     steps-to-reproduce: |
       1. Выбор категории
       2. Выбор двух фильтров
@@ -88,8 +89,8 @@ bugreports:
   - summary: |
       Нельзя удалить полностью товар за одно нажатие
     environment: |
-    Яндекс браузер 24.1.5.803 (64-bit)
-    Windows 10 22H2
+      Яндекс браузер 24.1.5.803 (64-bit)
+      Windows 10 22H2
     steps-to-reproduce: |
       1. Добавить несколько товаров
       2. Перейти в корзину
@@ -102,8 +103,8 @@ bugreports:
   - summary: |
       Нельзя удалить полностью товар за одно нажатие
     environment: |
-    Яндекс браузер 24.1.5.803 (64-bit)
-    Windows 10 22H2
+      Яндекс браузер 24.1.5.803 (64-bit)
+      Windows 10 22H2
     steps-to-reproduce: |
       1. Добавить несколько товаров
       2. Перейти в корзину
@@ -116,8 +117,8 @@ bugreports:
   - summary: |
       Нет уведомления о добавлении товара в корзину
     environment: |
-    Яндекс браузер 24.1.5.803 (64-bit)
-    Windows 10 22H2
+      Яндекс браузер 24.1.5.803 (64-bit)
+      Windows 10 22H2
     steps-to-reproduce: |
       1. Добавить несколько товаров
     expected-result: |
@@ -128,8 +129,8 @@ bugreports:
   - summary: |
       Нет удобной системы перехода по страницам
     environment: |
-    Яндекс браузер 24.1.5.803 (64-bit)
-    Windows 10 22H2
+      Яндекс браузер 24.1.5.803 (64-bit)
+      Windows 10 22H2
     steps-to-reproduce: |
       1. Нажимать кнопки Previous и Next
     expected-result: |
